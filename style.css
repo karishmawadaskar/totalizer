@@ -110,6 +110,7 @@ header{
     text-align: center;
     border-radius: 8px;
     border: 2px solid #999999;
+    cursor: pointer;
 }
 .btn:hover{
     background-color: plum;
