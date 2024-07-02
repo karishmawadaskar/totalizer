@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <img src="./images/logo.png" class="logo"/>
+    </header>
+    <div class="main-container">
+        <div class="content">
+            <h1>Addition Calculator</h1>
+            <div class="profile"><img src="./images/profile.png" height="30px"/><p>Created by <b>Karishma Wadaskar, MCA candidate</b></p></div>
+            <P>Do you ever have two really big numbers you need to add together and no easy-to-click calculator at hand? With this addition calculator, you will always be able to easily add two numbers together, be they positive or negative, big or small. In the article below, we explain how our summation calculator works, and provide a section for you to familiarize yourself with the addition definition.</P>
+            <H3>Addition definition math - what is an addend?</H3>
+            <P>Summation, also called addition, is the process of calculating the total of two (or more) addends. What is an addend? Those numbers that are being added together are called addends, which, in our calculator, are marked as A and B. The result of this process is called a sum, in this addition calculator known as C.</P>
+            <P>The addition has two properties: commutativity and associativity.
+
+                Commutativity means that you can exchange the places of the addends without changing the result of the equation,<p>A + B = B + A.</p> 
+                
+               <p> Associativity, on the other hand, becomes a thing once we try to add more than two numbers. It means it doesn't matter whether you add the first number to the second and then the third or third to the second and then the first. The result won't change, A + (B + C) = (A + B) + C.</P>
+                <H3>Addition calculator in practice</H3>
+                <P>So, let's practice it with an example. Imagine one of your addends is A = 32948 and the other B = 2938546.
+
+                    <p>32948 + 2938546 = <span>2,971,494</span></p>
+                    
+                   <p></p> What happens if B is negative?</p>
+                    
+                <p>32948 + -2938546 =  <span>-2,905,598</span></p>
+                    
+            <p> And that's it! 🎉</P></p>
+        </div>
+        <div class="container">
+            <div class="mini-container">
+                <h1>KW_calculator</h1>
+                <h2>A+B=C</h2>
+                <label for="input1">Input-A</label>
+                <input type="text" class="input-box" id="input1" onkeyup="calculatenum()" />
+                <label for="input1">Input-B</label>
+                <input type="text" class="input-box" id="input2" onkeyup="calculatenum()" />
+                <label>Sum=c</label>
+                <p type="text" class="input-box result" id="result"></p>
+                <button class="btn" id="reset" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
